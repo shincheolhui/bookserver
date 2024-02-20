@@ -7,7 +7,7 @@
 </ul>
 <br/>
 
-<h2>사용기술</h2>
+<h1>사용기술</h1>
 💾 Databases<br>
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 

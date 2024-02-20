@@ -1,0 +1,27 @@
+# 서버포트 번호
+server:
+  port: 8080
+
+# 콘솔 ANSI 색상
+spring:
+  output:
+    ansi:
+      enabled: always
+
+  # datasource 설정
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db907?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: user907
+    password: 1234
+
+  #JPA 세팅
+  jpa:
+    show-sql: true  # JPA 에서 생성되는 SQL문 콜솔 출력
+    properties:
+      hibernate.format_sql: true   # 쿼리 포맷팅 출력
+
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
